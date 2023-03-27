@@ -1,0 +1,96 @@
+/* container */
+table {
+  /* light */
+  color: #2a2c3c;
+  /* dark */
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1rem;
+}
+
+/* thead */
+thead {
+  height: 2.5rem;
+}
+
+/* th */
+th {
+  padding: 0.5rem 1rem 0.5rem 0;
+  /* light */
+  border-bottom: 2px solid #d5dbea;
+  /* dark */
+  border-bottom: 2px solid #343949;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 1rem;
+  text-align: left;
+}
+
+/* tr */
+tr {
+  height: 2.5rem;
+}
+
+/* td */
+td {
+  padding: 0.5rem 1rem 0.5rem 0;
+  /* light */
+  border-bottom: 2px solid #d5dbea;
+  /* dark */
+  border-bottom: 2px solid #343949;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/* bar graph */
+.hitbar {
+  /* light */
+  color: #5CABE0;
+  /* dark */
+  color: #5CABE0;
+  border-top-right-radius: 100;
+  border-bottom-right-radius: 100;
+}
+
+/* positive badge */
+.positive {
+  /* light */
+  color: #cb0025;
+  /* dark */
+  color: #fee8ed;
+  /* light */
+  fill: #cb0025;
+  /* dark */
+  fill: #fee8ed;
+  background-color: transparent;
+}
+
+/* negative badge */
+.negative {
+  /* light */
+  color: #035834;
+  /* dark */
+  color: #e1f4ee;
+  /* light */
+  fill: #035834;
+  /* dark */
+  fill: #e1f4ee;
+  background-color: transparent;
+}
+
+/* neutral badge */
+.neutral {
+  /* light */
+  color: #00408C;
+  /* dark */
+  color: #E1F0F9;
+  /* light */
+  fill: #00408C;
+  /* dark */
+  fill: #E1F0F9;
+  background-color: transparent;
+}
